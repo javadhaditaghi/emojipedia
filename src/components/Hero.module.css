@@ -1,0 +1,13 @@
+.title {
+    font-weight: 900;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 4rem;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.title .titleInner {
+    padding: 5px 15px;
+    background: #2ec2b0;
+}

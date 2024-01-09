@@ -1,11 +1,10 @@
 import React from "react";
+import Hero from "./Hero";
 
 function App() {
   return (
     <div>
-      <h1>
-        <span>emojipedia</span>
-      </h1>
+      <Hero></Hero>
 
       <dl className="dictionary">
         <div className="term">

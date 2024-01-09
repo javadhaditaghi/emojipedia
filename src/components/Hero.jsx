@@ -1,7 +1,12 @@
+import React from 'react';
+import Styles from "./Hero.module.css"
+
 const Hero = () => {
 
     return (
-        pass
+        <h1 className={Styles.title}>
+            <span className={Styles.titleInner}>emojipedia</span>
+        </h1>
     )
 }
 
