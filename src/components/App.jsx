@@ -1,13 +1,17 @@
 import React from "react";
 import Hero from "./Hero";
+import Dictionary from "./Dictionary";
+import Card from "./Card";
+
 
 function App() {
   return (
     <div>
       <Hero></Hero>
 
-      <dl className="dictionary">
-        <div className="term">
+      <Dictionary>
+
+        <Card>
           <dt>
             <span className="emoji" role="img" aria-label="Tense Biceps">
               💪
@@ -18,8 +22,10 @@ function App() {
             “You can do that!” or “I feel strong!” Arm with tense biceps. Also
             used in connection with doing sports, e.g. at the gym.
           </dd>
-        </div>
-        <div className="term">
+        </Card>
+
+
+        <Card>
           <dt>
             <span className="emoji" role="img" aria-label="Tense Biceps">
               🙏
@@ -31,8 +37,10 @@ function App() {
             prayer, or hoping for enlightenment. Is also used as a “high five”
             or to say thank you.
           </dd>
-        </div>
-        <div className="term">
+        </Card>
+
+
+        <Card>
           <dt>
             <span className="emoji" role="img" aria-label="Tense Biceps">
               🤣
@@ -44,8 +52,8 @@ function App() {
             face is laughing boundlessly. The emoji version of “rofl“. Stands
             for „rolling on the floor, laughing“.
           </dd>
-        </div>
-      </dl>
+        </Card>
+      </Dictionary>
     </div>
   );
 }
